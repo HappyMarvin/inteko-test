@@ -1,0 +1,33 @@
+.switch {
+	position: relative;
+	width: 20px;
+	height: 18px;
+}
+
+.switch::after {
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 5px;
+	left: 0;
+	top: 0;
+	border-bottom: 3px solid #1e1e1e;
+	border-right: 3px solid #1e1e1e;
+	box-sizing: border-box;
+	transform: skew(35deg);
+	cursor: pointer;
+}
+
+.switch::before {
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 5px;
+	right: 0;
+	bottom: 0;
+	border-top: 3px solid #1e1e1e;
+	border-left: 3px solid #1e1e1e;
+	box-sizing: border-box;
+	transform: skew(35deg) translateX(3px);
+	cursor: pointer;
+}

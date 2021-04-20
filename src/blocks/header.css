@@ -1,0 +1,45 @@
+.header {
+	display: flex;
+	padding: 200px 60px 40px 60px;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.header__logo {
+	background-image: url("../images/logo.svg");
+	width: 150px;
+	height: 40px;
+}
+
+.header__language {
+	width: 20px;
+	height: 20px;
+	background-image: url("../images/language.svg");
+	background-size: cover;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1339px) {
+	.header {
+		position: relative;
+		background-color: #fff;
+		z-index: 2;
+		padding: 60px 60px 40px 60px;
+	}
+}
+
+@media screen and (max-width: 699px) {
+	.header__logo {
+		background-size: contain;
+		background-repeat: no-repeat;
+		width: 106px;
+		height: 30px;
+	}
+
+	.header__language {
+		display: none;
+	}
+}

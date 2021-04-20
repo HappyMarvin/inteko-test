@@ -1,0 +1,27 @@
+.top-wrapper {
+	position: relative;
+}
+
+.top-wrapper::before {
+	content: '';
+	position: absolute;
+	top: -150px;
+	bottom: 0;
+	right: 0;
+	width: 952px;
+	border-left: 2px solid #d2c8c8;
+	border-bottom: 2px solid #d2c8c8;
+	z-index: 1;
+}
+
+@media screen and (max-width: 1339px) {
+	.top-wrapper::before {
+		width: 850px;
+	}
+}
+
+@media screen and (max-width: 1019px) {
+	.top-wrapper::before {
+		width: calc(100% - 10px);
+	}
+}

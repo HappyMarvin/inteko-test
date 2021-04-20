@@ -1,0 +1,12 @@
+@import "../vendor/normalize.css";
+@import "../blocks/conteiner.css";
+@import "../blocks/.switch.css";
+@import "../blocks/header.css";
+@import "../blocks/content.css";
+@import "../blocks/about.css";
+@import "../blocks/projects.css";
+@import "../blocks/top-wrapper.css";
+@import "../blocks/now.css";
+@import "../blocks/history.css";
+@import "../blocks/stuff.css";
+@import "../blocks/offer.css";

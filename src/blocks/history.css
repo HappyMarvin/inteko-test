@@ -1,0 +1,135 @@
+.history {
+	padding: 0 0 53px 0;
+	position: relative;
+	line-height: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.history::after {
+	content: '';
+	position: absolute;
+	width: 952px;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border-left: 2px solid #d2c8c8;
+	border-bottom: 2px solid #d2c8c8;
+	z-index: 1;
+}
+
+.history::before {
+	content: '';
+	position: absolute;
+	width: 298px;
+	left: 0;
+	top: 0;
+	border-top: 2px solid #d2c8c8;
+}
+
+.history__image {
+	width: 920px;
+	margin-left: auto;
+	display: block;
+}
+
+.history__list-wrapper {
+	position: relative;
+	display: flex;
+	align-items: center;
+	z-index: 2;
+	min-height: 570px;
+	transform: translateY(-570px);
+	margin-bottom: -570px;
+}
+
+.history__list {
+	background-color: #fff;
+	width: 470px;
+	padding: 55px 40px 59px 65px;
+	box-sizing: border-box;
+	list-style: none;
+	margin: 0;
+}
+
+.history__item::before {
+	content: '—\2002';
+	color: #4764b0;
+	font-weight: 700;
+	margin-left: -24px;
+}
+
+.history__item {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 10px 0 0 20px;
+	padding: 0;
+}
+
+@media screen and (max-width: 1339px) {
+	.history__image {
+		width: 720px;
+	}
+
+	.history__list {
+		width: 380px;
+		padding: 30px;
+	}
+
+	.history__list-wrapper {
+		min-height: 446px;
+		transform: translateY(-446px);
+		margin-bottom: -446px;
+	}
+
+	.history::after {
+		width: 750px;
+	}
+}
+
+@media screen and (max-width: 1019px) {
+	.history {
+		flex-direction: column-reverse;
+		padding-bottom: 20px;
+	}
+
+	.history__list-wrapper {
+		min-height: 0;
+		transform: translateY(30px);
+		margin-top: -30px;
+		margin-bottom: 0;
+	}
+
+	.history__list {
+		width: calc(100% - 20px);
+		padding: 29px 35px 30px 20px;
+		max-width: 720px;
+	}
+
+	.history__image {
+		max-width: 720px;
+		width: calc(100% - 20px);
+	}
+
+	.history__item::before {
+		content: '—\2002';
+		color: #4764b0;
+		font-weight: 700;
+		margin-left: -18px;
+	}
+
+	.history__item {
+		font-family: Arial, sans-serif;
+		font-size: 12px;
+		line-height: 18px;
+		margin: 10px 0 0 20px;
+	}
+
+	.history::after {
+		max-width: 730px;
+		width: calc(100% - 10px);
+	}
+}
+
