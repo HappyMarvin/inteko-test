@@ -84,6 +84,16 @@
 	transform: translateY(63px);
 }
 
+.switch-slide__projects {
+	display: none;
+	position: relative;
+	z-index: 4;
+	width: calc(100% - 20px);
+	max-width: 720px;
+	transform: translateY(-62px);
+	margin-bottom: -18px;
+}
+
 @media screen and (max-width: 1339px) {
 	.projects__our {
 		width: 820px;
@@ -128,7 +138,6 @@
 	.projects__our {
 		width: 100%;
 		padding: 39px 23px 28px 30px;
-
 	}
 
 	.projects__our-title {
@@ -179,5 +188,9 @@
 
 	.switch__projects {
 		display: none;
+	}
+
+	.switch-slide__projects {
+		display: block;
 	}
 }

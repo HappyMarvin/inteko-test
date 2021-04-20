@@ -1,6 +1,7 @@
 @import "../vendor/normalize.css";
 @import "../blocks/conteiner.css";
-@import "../blocks/.switch.css";
+@import "../blocks/switch.css";
+@import "../blocks/switch-slide.css";
 @import "../blocks/header.css";
 @import "../blocks/content.css";
 @import "../blocks/about.css";

@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="4" viewBox="0 0 1080 4"><g><g><image width="1080" height="4" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABDgAAAAECAYAAABr549KAAABOUlEQVR4Xu3YvQ3CMBCG4buNYAMaoMUbIAE1YRKgJhEjmDahYgLYyDS0yZFIVn780nI29nMnIX+62vsgTZ8grirco65kvfdZEDk37tHySxU5lbm71C1b7fxGVHzLbbuWv6rcLZoWm4Zdf/mPdUFl/ry5T13p8uC3GuT+x1aTK7FsYszu5BAndiFzJnb+ElSOE7s210EAgZ+ABrmWhcsa/jNnGuQNGAIIIIAAAgiMU0DNxzkBBwHHOGdbzMdshHBupFTJHNucCQKOZGaBi6YpQMCRZt+5NQIIIIBAOgIEHHavCThso0FWmI9ZAo5B9i3mocyZIOCIyc/eCPQuQMDRews4AAIIIIAAAlEFCDhsXgIO22iQFeZjloBjkH2LeShzJgg4YvKzNwK9CxBw9N4CDoAAAggggEBUgS/rM71lSzEc0AAAAABJRU5ErkJggg=="/></g></g></svg>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1080" height="4"
+		 viewBox="0 0 1080 4">
+	<g>
+		<g>
+			<image width="1080" height="4"
+						 xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABDgAAAAECAYAAABr549KAAABOUlEQVR4Xu3YvQ3CMBCG4buNYAMaoMUbIAE1YRKgJhEjmDahYgLYyDS0yZFIVn780nI29nMnIX+62vsgTZ8grirco65kvfdZEDk37tHySxU5lbm71C1b7fxGVHzLbbuWv6rcLZoWm4Zdf/mPdUFl/ry5T13p8uC3GuT+x1aTK7FsYszu5BAndiFzJnb+ElSOE7s210EAgZ+ABrmWhcsa/jNnGuQNGAIIIIAAAgiMU0DNxzkBBwHHOGdbzMdshHBupFTJHNucCQKOZGaBi6YpQMCRZt+5NQIIIIBAOgIEHHavCThso0FWmI9ZAo5B9i3mocyZIOCIyc/eCPQuQMDRews4AAIIIIAAAlEFCDhsXgIO22iQFeZjloBjkH2LeShzJgg4YvKzNwK9CxBw9N4CDoAAAggggEBUgS/rM71lSzEc0AAAAABJRU5ErkJggg=="/>
+		</g>
+	</g>
+</svg>

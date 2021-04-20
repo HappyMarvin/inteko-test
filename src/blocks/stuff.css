@@ -108,6 +108,7 @@
 	.stuff__switch-list {
 		display: flex;
 	}
+
 	.switch__stuff {
 		display: none;
 	}
