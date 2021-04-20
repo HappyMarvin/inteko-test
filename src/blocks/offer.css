@@ -77,6 +77,8 @@
 }
 
 .switch__offer {
+	position: relative;
+	z-index: 3;
 	margin: -18px 0 0 60px;
 	transform: translateY(178px);
 }
